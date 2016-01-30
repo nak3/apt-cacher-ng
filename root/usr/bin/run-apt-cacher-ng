@@ -1,0 +1,7 @@
+#!/bin/bash
+
+APT_CACHER_NG_CACHE_DIR=${APT_CACHER_NG_CACHE_DIR:-/var/cache/apt-cacher-ng/}
+PORT=${PORT:-3142}
+
+#apt-cacher-ng -c /etc/apt-cacher-ng ForeGround=1 CacheDir=$APT_CACHER_NG_CACHE_DIR Port=$PORT
+apt-cacher-ng ForeGround=1 CacheDir=$APT_CACHER_NG_CACHE_DIR Port=$PORT
