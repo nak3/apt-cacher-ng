@@ -1,4 +1,4 @@
-FROM fedora:23
+FROM fedora:26
 
 MAINTAINER Kenjiro Nakayama <nakayamakenjiro@gmail.com>
 
